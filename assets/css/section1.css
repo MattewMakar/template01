@@ -1,0 +1,49 @@
+#about-us-div {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  height: 100%;
+}
+#about-us-div .about-us-title {
+  font-family: cursive;
+  margin-bottom: 20px;
+  font-weight: 700;
+  color: #581845;
+}
+
+#about-us-div .about-us-desc {
+ color: gray;
+}
+
+#about-us-div .about-us-info{
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+.about-us-info .icon {
+ width: 40px;
+ height: 40px;
+ background-color: green;
+  border-radius: 25%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  margin-right: 20px;
+}
+
+.icon-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-bottom: 5px;
+}
+
+.icon-container span {
+  font-weight: 500;
+  text-transform: capitalize;
+  color: #581845;
+
+}
